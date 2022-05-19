@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(91, 91, 91) ;
+}
+.container{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.subheading{
+    line-height: 1%;
+}
+.heading{
+    line-height: 50%;
+    padding: 30px 0px 0px 0px;
+}
+.head {
+    width: 60%;
+    height: 105px;
+    background-color: rgb(247, 146, 22);
+    border-radius:20px 20px 0px 0px;
+    padding: 40px;
+}
+.main{
+    margin: auto;
+    width: 60%;
+    background-color: rgb(255, 228, 195);
+    height: 1100px;
+    padding: 40px;
+}
+
+.fname{
+    width: 30%;
+    height: 27px;
+    margin: 0px 27px 20px 100px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+.lname{
+    width: 30%;
+    height: 27px;
+    margin: 27px 31px 0px -5px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+
+.single-input{
+    width: 66.5%;
+    height: 43px;
+    margin: 10px 0px 8px 98px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+
+input[name="grade"], input[name="impression"]{
+    accent-color: green;
+}
+
+.email, .phone-num, .date{
+    display: inline-block;
+
+}
+#email {
+    width: 156.8%;
+    height: 27px;
+    margin: 14px 5px 2px 193px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+
+#phone {
+    width: 173%;
+    height: 27px;
+    margin: 3px 5px 2px 158px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+   
+}
+.dob{
+    width: 219%;
+    height: 27px;
+    margin: 14px 5px 2px 139px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+    background-color: white;
+}
+.radio-grade, .radio-impression, .name, .text{
+    display: inline-block;
+    
+}
+.grade{
+    margin-left: 18.4%;
+}
+
+.checkbox-class-env{
+   display: inline-block;
+   margin-top: 40px;
+   
+}
+
+.class-envv{
+    margin-left: 9%;
+}
+
+input[name="class-env[]"], input[name="highest-level[]"] {
+    accent-color: red;
+}
+
+.checkbox-highest-level{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.high-level{
+    margin-left: 8.4%;
+}
+
+.impression {
+    margin-left: 6.3%;
+}
+
+.wonderings{
+    width: 177.8%;
+    height: 40px;
+    margin: 14px 5px 2px 146px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+.button{
+    display:inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+#submit-btn{
+    background-color: rgb(247, 146, 22) ;
+    width: 120%;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+#reset-btn {
+    background-color: rgb(225, 192, 3);
+    width: 120%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#submit-btn:hover {
+    background-color:rgb(242, 112, 5) ;
+}
+#reset-btn:hover {
+    background-color: rgb(216, 246, 19);
+}
+
+.footer{
+    margin: auto;
+    width: 60%;
+    height: 50px;
+    background-color: rgb(247, 146, 22);
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
